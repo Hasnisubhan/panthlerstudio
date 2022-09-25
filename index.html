@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Panthler-Studio</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+  <link rel="stylesheet" href="plugins/counto/animate.css">
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="plugins/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="plugins/animated-text/animated-text.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<style>
+	body{
+		background-image: url('img-bg.jpg');
+  		background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-size: cover;
+	}
+</style>
+<body>
+
+<!-- Navigation Start -->
+<!-- Header Start --> 
+<nav class="navbar navbar-expand-lg  main-nav " id="navbar">
+	<div class="container">
+	  <a class="navbar-brand" href="index.html">
+	  	<img src="images/logo.png" alt="" class="img-fluid" data-aos="fade-right"  data-aos-delay="100">
+	  </a>
+
+	  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation"> 
+		<span class="ti-align-justify" data-aos="fade"  data-aos-delay="150"></span>
+	  </button>
+  
+		  <div class="collapse navbar-collapse" id="navbarsExample09" >
+			<ul class="navbar-nav ml-auto">
+			  <li class="nav-item  active"><a class="nav-link" href="index.html"  data-aos="fade-left"  data-aos-delay="150">Home</a></li>
+
+			  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-aos="fade-left"  data-aos-delay="200">About</a>
+					<ul class="dropdown-menu" aria-labelledby="dropdown01">
+						<li><a class="dropdown-item" href="about.html">About Me</a></li>
+						<li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+					</ul>
+			  </li>
+
+		  
+			   <li class="nav-item"><a class="nav-link" href="contact.html" data-aos="fade-left"  data-aos-delay="250">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Header Close -->
+<br> 
+<a href="info.html"><li class="fa fa-book" style="margin-left: 20px; margin-top: -10px; position: absolute; color: black;"
+	 data-aos="fade"  data-aos-delay="250"></li></a>
+
+<!-- Search Box-->
+<div class="wrapper-search">
+  <div class="search-input">
+	  <div class="autocomplete" style="width:100%;"  data-aos="fade-up"  data-aos-delay="150">
+	    <input type="text" id="search" name="myCountry" placeholder="Search for services" onchange="ouvrirPage()"  style="text-transform:uppercase" />
+	    <div type="button" id="button" onclick="ouvrirPage()" value="Chercher" class="icon"  style="cursor: pointer;"><i class="fa fa-search"></i></div>
+
+	  </div>
+  </div>
+</div>
+
+<br>
+
+<!-- Banner Start -->
+<section class="section banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10" >
+				 <h2 class="cd-headline clip is-full-width mb-4" data-aos="fade-right"  data-aos-delay="300">
+				 	We Create <br>
+                    <span class="cd-words-wrapper text-color" data-aos="fade-right"  data-aos-delay="350">
+                        <b class="is-visible" >Logos</b>
+                        <b>Intros</b>
+                        <b>Curriculum Vitae</b>
+                        <b>Posters</b>
+                        <b>Invitations</b>
+                        <b>Business Cards</b>
+                        <b>Banners</b>
+                        <b>Advertisments</b>
+                    </span>
+                </h2>
+                <p data-aos="fade-right"  data-aos-delay="400">Find the perfect & best service for your business.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Banner End -->
+
+<!-- POrtfolio start -->
+<section class="portfolio " data-aos="fade"  data-aos-delay="600">
+	<div class="container" >
+		<div class="row mb-5">
+	      	<div class="col-10">
+		        <div class="btn-group btn-group-toggle " data-toggle="buttons" >
+		          <label class="btn active ">
+		            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
+		          </label>
+		          <label class="btn">
+		            <input type="radio" name="shuffle-filter" value="business" />business
+		          </label>
+		          <label class="btn">
+		            <input type="radio" name="shuffle-filter" value="branding" />branding
+		          </label>
+		          <label class="btn">
+		            <input type="radio" name="shuffle-filter" value="personal" />personal
+		          </label>
+		        </div>
+	      	</div>
+    	</div>	
+
+    	
+		<div class="row shuffle-wrapper portfolio-gallery">
+	      <div class="col-lg-4 col-6 mb-4 shuffle-item"  data-groups="[&quot;branding&quot;,&quot;business&quot;]">
+		      	<div class="position-relative inner-box">
+		          <div class="image position-relative ">
+	               <img src="images/portfolio/1.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+	                <div class="overlay-box">
+	                  <div class="overlay-inner">
+	                    <a class="overlay-content" href="logos.html">
+	                      <h5 class="mb-0">Logo</h5>
+	                      <p>Design</p>
+	                    </a>
+	                  </div>
+	                </div> 
+	            </div>
+		      </div>
+	      </div>
+
+
+	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;personal&quot;,&quot;business&quot;]">
+	        <div class="position-relative inner-box" >
+	            <div class="image position-relative ">
+	               <img src="images/portfolio/4.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+	                <div class="overlay-box">
+	                  <div class="overlay-inner">
+		                    <a class="overlay-content" href="invitation.html">
+		                      <h5 class="mb-0">invitation</h5>
+		                      <p>Card</p>
+		                    </a>
+	                	</div> 
+		            </div>
+		        </div>
+		      </div>
+	      </div>
+
+	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;business&quot;,&quot;personal&quot;]">
+	        <div class="position-relative inner-box">
+	            <div class="image position-relative ">
+	               <img src="images/portfolio/3.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+	                <div class="overlay-box">
+	                  <div class="overlay-inner">
+	                    <a class="overlay-content" href="visiting-card.html">
+	                      <h5 class="mb-0">visiting</h5>
+	                      <p>Card</p>
+	                    </a>
+	                  </div>
+	                </div> 
+	            </div>
+	        </div>
+	      </div>
+
+	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;business&quot;,&quot;branding&quot;]">
+	        <div class="position-relative inner-box">
+	            <div class="image position-relative ">
+	               <img src="images/portfolio/5.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+	                <div class="overlay-box">
+	                  <div class="overlay-inner">
+	                    <a class="overlay-content" href="poster.html">
+	                      <h5 class="mb-0">Poster</h5>
+	                      <p>Social media</p>
+	                    </a>
+	                  </div>
+	                </div> 
+	            </div>
+	        </div>
+	      </div>
+
+	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;business&quot;]">
+	        <div class="position-relative inner-box">
+	            <div class="image position-relative ">
+	               <img src="images/portfolio/6.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+	                <div class="overlay-box">
+	                  <div class="overlay-inner">
+	                    <a class="overlay-content" href="Banner.html">
+	                       <h5 class="mb-0 ">Banner</h5>
+	                      	<p>design</p>
+	                    </a>
+	                  </div>
+	                </div> 
+	            </div>
+	        </div>
+	      </div>
+
+	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;business&quot;]">
+	        <div class="position-relative inner-box">
+	            <div class="image position-relative ">
+	               <img src="images/portfolio/7.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+	                <div class="overlay-box">
+	                  <div class="overlay-inner">
+	                    <a class="overlay-content" href="#" onclick="alert('This service is under maintenance.')">
+	                       <h5 class="mb-0">Advertisment</h5>
+	                      	<p>Video / Photo</p>
+	                    </a>
+	                  </div>
+	                </div> 
+	            </div>
+	        </div>
+	      </div>
+
+	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;personal&quot;,&quot;branding&quot;]">
+	        <div class="position-relative inner-box">
+	            <div class="image position-relative ">
+	               <img src="images/portfolio/9.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+	                <div class="overlay-box">
+	                  <div class="overlay-inner">
+	                    <a class="overlay-content" href="Video-Editing.html">
+	                      <h5 class="mb-0">Video</h5>
+	                      <p>Editing</p>
+	                    </a>
+	                  </div>
+	                </div> 
+	            </div>
+	        </div>
+	      </div>
+
+	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;personal&quot;,&quot;branding&quot;]">
+	        <div class="position-relative inner-box">
+	            <div class="image position-relative ">
+	               <img src="images/portfolio/10.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+	                <div class="overlay-box">
+	                  <div class="overlay-inner">
+	                    <a class="overlay-content" href="Photo-Editing.html">
+	                      <h5 class="mb-0">Photo</h5>
+	                      <p>Editing</p>
+	                    </a>
+	                  </div>
+	                </div> 
+	            </div>
+	        </div>
+	      </div>
+
+	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;personal&quot;,&quot;photo&quot;]">
+	        <div class="position-relative inner-box">
+	            <div class="image position-relative ">
+	               <img src="images/portfolio/11.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+	                <div class="overlay-box">
+	                  <div class="overlay-inner">
+	                    <a class="overlay-content"  href="cv.html">
+	                      <h5 class="mb-0">CV</h5>
+	                      <p>Creation</p>
+	                    </a>
+	                  </div>
+	                </div> 
+	            </div>
+	        </div>
+	      </div>
+
+	    </div>
+	</div>
+</section>
+
+
+<!--pricing table-->
+
+<div class="container mb-5 mt-5">
+    <div class="pricing card-deck flex-column flex-md-row mb-3">
+        <div class="card card-pricing text-center px-3 mb-4">
+            <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom primary-head text-white shadow-sm">Basic</span>
+            <div class="bg-transparent card-header pt-4 border-0">
+                <h1 class="h1 font-weight-normal text-center mb-0" data-pricing-value="15"><span class="price">+ 000</span><span class="h6 text-muted ml-2">LKR</span></h1>
+            </div>
+            <div class="card-body pt-0">
+                <ul class="list-unstyled mb-4">
+                    <li>Delivery 3 day </li>
+                    <del><li>Document file</li></del>
+                    <li>Correction 0</li>
+                </ul>
+                <a href="select-service.html" class="btn btn-main mb-3">Order Now</a>
+            </div>
+        </div>
+        <div class="card card-pricing popular shadow text-center px-3 mb-4">
+            <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom primary-head text-white shadow-sm">Standard</span>
+            <div class="bg-transparent card-header pt-4 border-0">
+                <h1 class="h1 font-weight-normal text-center mb-0" data-pricing-value="30"><span class="price">+ 200</span><span class="h6 text-muted ml-2">LKR</span></h1>
+            </div>
+            <div class="card-body pt-0">
+                <ul class="list-unstyled mb-4">
+                    <li>Delivery 2 day </li>
+                    <del><li>Document file</li></del>
+                    <li>Correction 3</li>
+                </ul>
+                <a href="select-service.html" class="btn btn-main mb-3">Order Now</a>
+            </div>
+        </div>
+        <div class="card card-pricing text-center px-3 mb-4">
+            <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom primary-head text-white shadow-sm">Premium</span>
+            <div class="bg-transparent card-header pt-4 border-0">
+                <h1 class="h1 font-weight-normal text-center mb-0" data-pricing-value="45"><span class="price">+ 350</span><span class="h6 text-muted ml-2 ">LKR</span></h1>
+            </div>
+            <div class="card-body pt-0 ">
+                <ul class="list-unstyled mb-4">
+                    <li>Delivery 1 day </li>
+                    <li>Document file</li>
+                    <li>Correction Unlimited</li>
+                </ul>
+                <a href="select-service.html" class="btn btn-main mb-3">Order Now</a>
+            </div>
+        </div>
+       
+        </div>
+    </div>
+</div>
+
+
+<!-- Portfolio End -->
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@panthlerx" data-unique-id="panthlerx" data-embed-type="creator" style="max-width: 720px; min-width: 288px;" > <section> <a target="_blank" href="https://www.tiktok.com/@panthlerx?refer=creator_embed">@panthlerx</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+<br>
+
+
+
+<!-- Service start -->
+<section class="section service-home border-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<h2 class="mb-2 ">To earn extra income</h2>
+				<p class="mb-5">These are legit and trusted platforms.<br>Click --> Join --> Earn Money</p>
+			</div>
+		</div>
+		
+		<div class="row">
+
+			<div class="col-lg-4">
+				<div class="service-item mb-5" data-aos="fade-left"  data-aos-delay="100">
+					<a href="http://cointiply.com/r/90g1R" target="_blank">
+						<img class="ads" src="images/ads/cointiply.jpg" title="Join Cointiply to Earn Free Bitcoin!">
+					</a>
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="service-item mb-5" data-aos="fade-left"  data-aos-delay="200">
+					<a href="https://www.btcs.love/invite/3kp7e" target="_blank">
+						<img class="ads" src="images/ads/satoshi.jpg" title="Shorten URLs and Earn Money">
+					</a>
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="service-item mb-5" data-aos="fade-left"  data-aos-delay="300">
+					<a href="https://cryptotabbrowser.com/31573005" target="_blank">
+						<img class="ads" src="images/ads/cryptotab.jpg" title="Join to Mine Free Bitcoin!">
+					</a>
+				</div>
+			</div>
+						
+		</div>
+	</div>
+</section>
+<!-- service end -->
+
+
+
+<!-- Footer start -->
+<section class="footer">
+	<div class="container">
+		<div class="row ">
+			<div class="col-lg-6">
+				<p class="mb-0"> © 2022 Designed & Developed by <a href="https://hasnisubhan.github.io/info" 
+          target="_blank" class="text-white">Panthler</a></p>
+			</div>
+			<div class="col-lg-6">
+				<div class="widget footer-widget text-lg-right mt-5 mt-lg-0">
+					<ul class="list-inline mb-0">
+
+						<li class="list-inline-item"><a href="https://www.instagram.com/panthler_studio/" target="_blank"><i class="fab fa-instagram mr-3"></i></a>
+						</li>
+						<li class="list-inline-item"><a href="https://github.com/Hasnisubhan" target="_blank"><i class="fab fa-github mr-3"></i></a></li>
+						<li class="list-inline-item"><a href="https://wa.me/94784582025/?text=Hi. I'm _____ , I was redirected by panthler-studio" target="_blank"><i class="fab fa-whatsapp mr-3"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.tiktok.com/@panthlerx" target="_blank">
+							<i class="fab fa-tiktok"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Footer End -->
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<script src="plugins/aos/aos.js"></script>
+<script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+<script src="plugins/shuffle/shuffle.min.js"></script>
+<script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="plugins/animated-text/animated-text.js"></script>
+<script src="plugins/counto/apear.js"></script>
+<script src="plugins/counto/counTo.js"></script>
+
+ <!-- Google Map -->
+<script src="plugins/google-map/map.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script> 
+<!-- Main Script -->
+<script src="js/script.js"></script>
+<!-- Search Box Script -->
+<script src="js/seacrh script.js"></script>
+<script>
+autocomplete(document.getElementById("search"), countries);
+</script>
+
+<script>
+	        function ouvrirPage() {
+            var a = document.getElementById("search").value;
+
+            if (a === "LOGO") {
+                window.open("logos.html");
+            }
+
+            if (a === "LOGO CREATION") {
+                window.open("logos.html");
+            }
+
+            if (a === "VIDEO") {
+                window.open("Video-Editing.html");
+            }
+            
+            if (a === "VIDEO EDITING") {
+                window.open("Video-Editing.html");
+            }
+            
+            if (a === "PHOTO") {
+                window.open("Photo-Editing.html");
+            }
+            
+            if (a === "PHOTO EDITING") {
+                window.open("Photo-Editing.html");
+            }
+            
+            if (a === "INVITATION") {
+                window.open("invitation.html");
+            }
+
+            if (a === "INVITATION CARD") {
+                window.open("invitation.html");
+            }
+
+            if (a === "VISITING CARD") {
+                window.open("visiting-card.html");
+            }
+
+            if (a === "BUSINESS CARD") {
+                window.open("visiting-card.html");
+            }
+
+            if (a === "BANNER") {
+                window.open("Banner.html");
+            }
+
+            if (a === "BANNER DESIGN") {
+                window.open("Banner.html");
+            }
+
+            if (a === "POSTER") {
+                window.open("poster.html");
+            }
+
+            if (a === "POSTER DESIGN") {
+                window.open("poster.html");
+            }
+
+            if (a === "JEWELLERY LOGO") {
+                window.open("logo-type-1.html");
+            }
+
+            if (a === "GAMING LOGO") {
+                window.open("logo-type-2.html");
+            }
+
+            if (a === "BUSINESS LOGO") {
+                window.open("logos.html");
+            }
+
+            if (a === "COOKING LOGO") {
+                window.open("logo-type-3.html");
+            }
+
+            if (a === "COLOURFUL LOGO") {
+                window.open("logo-type-6.html");
+            }
+
+            if (a === "PROFESSIONAL LOGO") {
+                window.open("logo-type-5.html");
+            }
+
+            if (a === "BIRTHDAY INVITATION") {
+                window.open("Invitation-type-6.html");
+            }
+
+            if (a === "TRAVEL INTRO") {
+                window.open("video-editing-type-1.html");
+            }
+
+            if (a === "TRAVEL VIDEO INTRO") {
+                window.open("video-editing-type-1.html");
+            }
+
+            if (a === "PRODUCT INTRODUCE VIDEO") {
+                window.open("video-editing-type-3.html");
+            }
+
+            if (a === "COLOUR GRADING") {
+                window.open("photo-editing-type-2.html");
+            }
+
+            if (a === "REMOVE OBJECTS") {
+                window.open("photo-editing-type-5.html");
+            }
+
+            if (a === "BLUR BACKGROUND") {
+                window.open("photo-editing-type-1.html");
+            }
+
+            if (a === "AVATAR 2D") {
+                window.open("photo-editing-type-8.html");
+            }
+
+            if (a === "MOCKUP") {
+                window.open("photo-editing-type-6.html");
+            }
+
+        }
+</script>
+</html>

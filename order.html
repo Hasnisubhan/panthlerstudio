@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>payment</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+  <link rel="stylesheet" href="plugins/counto/animate.css">
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="plugins/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="plugins/animated-text/animated-text.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+<style>
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+  font-family: sans-serif;
+}
+.send-recipt{
+  padding: 15px;
+  border:1px solid #66c0ff;
+  border-radius: 5px;
+  background: #e5f4ff;"
+}
+</style>
+
+<body>
+  
+<!-- Navgiation Start -->
+<!-- Header Start --> 
+<nav class="navbar navbar-expand-lg  main-nav " id="navbar">
+	<div class="container">
+	  <a class="navbar-brand" href="index.html">
+	  	<img src="images/logo.png" alt="" class="img-fluid">
+	  </a>
+
+	  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="ti-align-justify"></span>
+	  </button>
+  
+		  <div class="collapse navbar-collapse" id="navbarsExample09">
+			<ul class="navbar-nav ml-auto">
+			  <li class="nav-item  active"><a class="nav-link" href="index.html">Home</a></li>
+
+			  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+					<ul class="dropdown-menu" aria-labelledby="dropdown01">
+						<li><a class="dropdown-item" href="about.html">About Me</a></li>
+						<li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+					</ul>
+			  </li>
+
+			   <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Header Close --> 
+<br><a href="info.html"><li class="fa fa-book" style="margin-left: 20px; margin-top: -10px; position: absolute; color: black;"
+   data-aos="fade"  data-aos-delay="250"></li></a>
+
+<div class="container">
+
+		<div class="row justify-content-center">
+			<div class="col-lg-8 text-center">
+				<p>Choose <u><b>a</b></u> Payment Method</p>
+			</div>
+		</div>
+
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Bank')"><li class="fa fa-credit-card" 
+  	style="font-size: 1.5rem;"></li>
+  </button>
+
+  <button class="tablinks" onclick="openCity(event, 'Paypal')"
+   style="font-size: 1.5rem;"><li class="fab fa-paypal"></li>
+</button>
+
+  <button class="tablinks" onclick="openCity(event, 'Bitcoin')"
+   style="font-size: 1.5rem;"><li class="fab fa-bitcoin"></li>
+</button>
+
+</div>
+
+<form action="https://sheetdb.io/api/v1/x0tb46wjlbns5" method="post" id="sheetdb-form">
+
+<!-- Tab content -->
+<!-- Bank -->
+<div id="Bank" class="tabcontent">
+  <h3>Bank Transfer</h3>
+  <p style="font-size: 17px;">115152361470 <br>M H B SUBHAN <br> Sampath Bank</p>
+  <img src="images/bank.png" style="width: 100px; float: right; margin-top: -50px;"><br>
+
+  <div class="send-recipt">
+  <p><b>To confirm your transaction </b><br> please send a picture of your recipt to<br>
+    <br><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">
+    <i class="fa fa-envelope" style="font-size: 17px;"> panthlerstudio@gmail.com</i></a><br>or<br>
+    <a href="https://wa.me/94784582025/?text=Hi, I'm [Name]" target="_blank" style="font-size: 17px;">
+    <i class="fab fa-whatsapp"> Whatsapp</i></a><br><br>
+If you do not, your payment will not be refunded</p>
+</div><br>
+                          
+        <label class="color-click">
+        <input type="checkbox" name="data[BANK]" value="i willl deposit" class="checkbox" onclick="terms_changed(this)" />
+        <span class="checkmark"></span><p style="font-size: 1rem;"> 
+        I agree to the <a href="term and condition.html">term & conditions</a></p>
+        </label><br>
+
+        <button type="submit" class="btn btn-main mb-3" name="data[BANK]" value="i will deposit">i will</button>
+</div>
+
+<!-- Bank End-->
+
+
+<!-- Paypal -->
+<div id="Paypal" class="tabcontent">
+  <h3>Paypal</h3>
+
+  <p style="font-size: 17px;"><b>hasnisubhan@gmail.com</b></p>
+    <div class="col-lg-6">
+        <input name="data[PAYPAL MAIL]" type="email" class="form-control" 
+         placeholder="Your Paypal Mail Address"><br>
+
+        <label class="color-click">
+        <input type="checkbox" class="checkbox" onclick="terms_changed(this)" />
+        <span class="checkmark"></span><p style="font-size: 1rem;"> 
+        I agree to the <a href="term and condition.html">term & conditions</a></p>
+        </label>
+
+        <button type="submit" class="btn btn-main mb-3">i will</button>
+    </div>
+</div>
+<!-- Paypal End -->
+
+
+<!-- Coinbase -->
+<div id="Bitcoin" class="tabcontent">
+  <h3><img src="images/coinbase.png" style="width: 50px; padding-right: 10px;">Coinbase</h3>
+  <p>Address:  <pre class="content"><b style="font-size:1rem; cursor:pointer;">0x202E593E71ABf314fBFaAfF063FD60d8eeFcba72</b></pre></p>
+
+  <p>E-mail:  <b>hasnisubhan@gmail.com</b></p>
+  <img src="images/crypto.png" class="img-fluid"><br><br>
+<hr style="background: gray;">
+
+
+<!-- Coinbase End-->
+
+<!-- Binance -->
+  <h3><img src="images/binance.png" style="width: 60px;padding-right: 10px;">Binance</h3>
+  <p>Send only USDT to this deposit address.</p>
+  <p>Address: <pre class="content"><b style="font-size:1rem; cursor:pointer;">TMtHrTbZG21z6rtp7neN4KK3GMczKY6ZSD</b></pre></p>
+  <p>Network: <b>Tron (TRC20)</b></p>
+  <img src="images/crypto2.png" class="img-fluid"><br><br>
+<!-- Binance End -->
+
+
+
+
+    <div class="col-lg-6">
+        <input name="data[WALLET]" type="text" class="form-control" 
+         placeholder="Your Wallet Name">
+    </div><br>
+    <div class="col-lg-6">
+        <input name="data[EMAIL]" type="email" class="form-control" 
+         placeholder="Your Wallet E-mail"><br>
+
+        <label class="color-click">
+        <input type="checkbox" class="checkbox" onclick="terms_changed(this)" />
+        <span class="checkmark"></span><p style="font-size: 1rem;"> 
+        I agree to the <a href="term and condition.html">term & conditions</a></p>
+        </label>   
+         
+        <button type="submit" class="btn btn-main mb-3">i will</button>
+    </div>
+
+
+</div>
+
+</form>
+<!-- Service start -->
+		
+</div>
+<!-- service end -->
+<br>
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<script src="plugins/aos/aos.js"></script>
+<script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+<script src="plugins/shuffle/shuffle.min.js"></script>
+<script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="plugins/animated-text/animated-text.js"></script>
+<script src="plugins/counto/apear.js"></script>
+<script src="plugins/counto/counTo.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+<script>
+            var form = document.getElementById('sheetdb-form');
+        form.addEventListener("submit", e => {
+          e.preventDefault();
+          fetch(form.action, {
+              method : "POST",
+              body: new FormData(document.getElementById("sheetdb-form")),
+          }).then(
+              response => response.json()
+          ).then((html) => {
+            // you can put any JS code here
+            window.open('success.html');
+
+          });
+        });
+ </script>
+<script>
+	function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+<script>
+	document.querySelectorAll(".content").forEach((item, index) => {
+	item.addEventListener("click", async (event) => {
+		if (!navigator.clipboard) {
+			// Clipboard API not available
+			return;
+		}
+		try {
+			await navigator.clipboard.writeText(event.target.innerText);
+			alert("Address copied");
+			
+			var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copied"
+			
+		} catch (err) {
+			console.error("Failed to copy!", err);
+		}
+	});
+});
+
+</script>
+</html>

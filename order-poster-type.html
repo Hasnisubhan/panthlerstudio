@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Order Poster</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+  <link rel="stylesheet" href="plugins/counto/animate.css">
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="plugins/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="plugins/animated-text/animated-text.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  
+<!-- Header Start --> 
+<nav class="navbar navbar-expand-lg  main-nav " id="navbar">
+	<div class="container">
+	  <a class="navbar-brand" href="index.html">
+	  	<img src="images/logo.png" alt="" class="img-fluid">
+	  </a>
+
+	  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="ti-align-justify"></span>
+	  </button>
+  
+		  <div class="collapse navbar-collapse" id="navbarsExample09">
+			<ul class="navbar-nav ml-auto">
+			  <li class="nav-item  active"><a class="nav-link" href="index.html">Home</a></li>
+
+			  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+					<ul class="dropdown-menu" aria-labelledby="dropdown01">
+						<li><a class="dropdown-item" href="about.html">About Me</a></li>
+						<li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+					</ul>
+			  </li>
+
+			   <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Header Close --> 
+<br><a href="info.html"><li class="fa fa-book" style="margin-left: 20px; margin-top: -10px; position: absolute; color: black;"
+   data-aos="fade"  data-aos-delay="250"></li></a>
+
+
+<section class="page-title section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="text-center">
+          <h1 class="text-capitalize mb-0 text-lg">Order <span class="text-color">poster</span></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<form action="https://sheetdb.io/api/v1/8ow66vmgs6um8" method="post" id="sheetdb-form" >
+<!-- Price Option-->
+<br>
+
+<!-- contact form start -->
+
+    
+    <div class="container">
+        
+
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+
+ 
+            <div class="price-select">
+              <select name="data[PRICING]" id="size" onChange="updatePrice()">
+                <option value="Basic">Basic</option>
+                <option value="Standard" data-price="200">Standard</option>
+                <option value="Premium" data-price="350">Premium</option>
+              </select>
+            </div><br>
+            <div class="price-select">
+              <select name="data[CATEGORY]" id="color" onChange="updatePrice()">
+                <option>Select Poster Catagory</option>
+                <option value="Business Poster">Business</option>
+                <option value="Gaming Poster">Personal</option>
+                <option value="other Poster">Other</option>
+              </select>
+            </div>
+<br>
+            <div class="price-select">
+              <select name="data[STYLE]" id="style" onChange="updatePrice()">
+                <option>Select Poster Style</option>
+                <option value="Stylish fashion poster" data-price="400">Stylish Fashion</option>
+                <option value="Sale smart phone poster" data-price="300">Sale Smart Phone</option>
+                <option value="Sale property poster" data-price="400">Sale Property</option>
+                <option value="Food special poster" data-price="350">Food Special</option>
+                <option value="jewellery golden poster" data-price="300">Jewellery Golden</option>
+                <option value="Personal buiness poster" data-price="250">Personal Business</option>
+                <option value="Other poster" data-price="450">Other</option>
+              </select>
+            </div><br>
+
+<!-- Trigger/Open The Modal -->
+
+<P>Select poster color (optional) 
+  <i class="fa fa-info" onclick="alert('Choose color for your poster. If you need more color mention in the message.')" style="cursor: pointer; color: black;"></i></P>
+
+
+
+<div class="box-reo">
+
+<div>     
+        <div class="checkbox-wrapper" >
+                        <label class="color-click">
+                        <input type="checkbox" class="checkbox" onclick="terms_changed(this)" />
+                        <span class="checkmark"></span>
+                        </label>
+                        <input type="color" id="submit_button" name="data[COLOR_1]" disabled></input>
+                </div>
+</div>                  
+<div>
+                <div class="checkbox-wrapper">
+                        <label class="color-click">
+                        <input type="checkbox" class="checkbox" onclick="terms_changed_2(this)" />
+                        <span class="checkmark"></span>
+                        </label>
+                        <input type="color" id="submit_button_2" name="data[COLOR_2]" disabled></input>
+                </div> 
+</div> 
+<div>
+                <div class="checkbox-wrapper">
+                        <label class="color-click">
+                        <input type="checkbox" class="checkbox" onclick="terms_changed_2(this)" />
+                        <span class="checkmark"></span>
+                        </label>
+                        <input type="color" id="submit_button_2" name="data[COLOR_2]" disabled></input>
+                </div> 
+</div>      
+</div>
+
+
+                <br>
+                <P>Template code (optional) <i class="fa fa-info" onclick="alert('Type template code for making request easy. (Copy template code under your selected template and past here)')" style="cursor: pointer; color: black;"></i></P>
+<div class="price-box" id="price">Total: LKR 0</div>  
+
+<div>                   
+                <div class="checkbox-wrapper">    
+                        <label class="color-click">
+                        <input type="checkbox" class="checkbox" onclick="terms_changed_4(this)" />
+                        <span class="checkmark"></span>
+                        </label>
+                          <input type="text" placeholder="Code" id="submit_text" name="data[TEMP_CODE]" disabled style="padding-left: 14px;
+                          width: 75px; height: 45px;"
+                          maxlength="4"  oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" /></input>
+                </div>
+</div>
+
+                <br>
+                <div class="form-row">
+                    <div class="col-lg-6">
+                        <div class="form-group mb-3">
+                            <input name="data[USERNAME]" type="text" class="form-control" placeholder="Your Name" autofocus required>
+                        </div>
+                    </div>
+
+                     <div class="col-lg-6">
+                        <div class="form-group mb-3">
+                            <input type="text" id="tel"  name="data[WHATSAPP]" placeholder="Whatsapp Number (07)" maxlength="10" class="form-control" required oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
+                            </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="form-group mb-3">
+                            <input name="data[EMAIL]" type="email" class="form-control" placeholder="Email Address" required>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+
+                         <div class="form-group-2 mb-4">
+                            <textarea name="data[MESSAGE]" class="form-control" rows="6" placeholder="Your Message" required></textarea>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-main mb-3">Send Request</button>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+<br>
+
+
+
+
+    </div>
+</section>
+
+</form>
+
+
+<br>
+
+
+<!--pricing table-->
+
+<div class="container mb-5 mt-5">
+    <div class="pricing card-deck flex-column flex-md-row mb-3">
+        <div class="card card-pricing text-center px-3 mb-4">
+            <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom primary-head text-white shadow-sm">Basic</span>
+            <div class="bg-transparent card-header pt-4 border-0">
+                <h1 class="h1 font-weight-normal text-center mb-0" data-pricing-value="15"><span class="price">+ 000</span><span class="h6 text-muted ml-2">LKR</span></h1>
+            </div>
+            <div class="card-body pt-0">
+                <ul class="list-unstyled mb-4">
+                    <li>Delivery 3 day </li>
+                    <del><li>Document file</li></del>
+                    <li>Correction 0</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card card-pricing popular shadow text-center px-3 mb-4">
+            <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom primary-head text-white shadow-sm">Standard</span>
+            <div class="bg-transparent card-header pt-4 border-0">
+                <h1 class="h1 font-weight-normal text-center mb-0" data-pricing-value="30"><span class="price">+ 200</span><span class="h6 text-muted ml-2">LKR</span></h1>
+            </div>
+            <div class="card-body pt-0">
+                <ul class="list-unstyled mb-4">
+                    <li>Delivery 2 day </li>
+                    <del><li>Document file</li></del>
+                    <li>Correction 3</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card card-pricing text-center px-3 mb-4">
+            <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom primary-head text-white shadow-sm">Premium</span>
+            <div class="bg-transparent card-header pt-4 border-0">
+                <h1 class="h1 font-weight-normal text-center mb-0" data-pricing-value="45"><span class="price">+ 350</span><span class="h6 text-muted ml-2 ">LKR</span></h1>
+            </div>
+            <div class="card-body pt-0 ">
+                <ul class="list-unstyled mb-4">
+                    <li>Delivery 1 day </li>
+                    <li>Document file</li>
+                    <li>Correction Unlimited</li>
+                </ul>
+            </div>
+        </div>
+       
+        </div><div class="Update-logo">
+  <p><b>To adding your logo / image in your poster</b><br>Send your logo / image to <br>
+    <br><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">
+    <i class="fa fa-envelope" style="font-size: 17px;"> panthlerstudio@gmail.com</i></a><br>or<br>
+    <a href="https://wa.me/94784582025/?text=Hi, I'm [Name]" target="_blank" style="font-size: 17px;">
+    <i class="fab fa-whatsapp"> Whatsapp</i></a><br><br>
+  If you don't have a loge just leave or order a logo in <a href="logos.html"> logo section</a> to create a logo for you.</p>
+
+
+</div>
+    </div>
+</div>
+
+<section class="footer">
+	<div class="container">
+		<div class="row ">
+			<div class="col-lg-6">
+				<p class="mb-0"> © 2022 Designed & Developed by <a href="https://hasnisubhan.github.io/info" 
+          target="_blank" class="text-white">Panthler</a></p>
+			</div>
+			<div class="col-lg-6">
+				<div class="widget footer-widget text-lg-right mt-5 mt-lg-0">
+					<ul class="list-inline mb-0">
+
+						<li class="list-inline-item"><a href="https://www.instagram.com/panthler_studio/" target="_blank"><i class="fab fa-instagram mr-3"></i></a>
+						</li>
+						<li class="list-inline-item"><a href="https://github.com/Hasnisubhan" target="_blank"><i class="fab fa-github mr-3"></i></a></li>
+						<li class="list-inline-item"><a href="https://wa.me/94784582025/?text=Hi. I'm _____ , I was redirected by panthler-studio" target="_blank"><i class="fab fa-whatsapp mr-3"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.tiktok.com/@panthlerx" target="_blank">
+							<i class="fab fa-tiktok"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<script src="plugins/aos/aos.js"></script>
+<script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+<script src="plugins/shuffle/shuffle.min.js"></script>
+<script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="plugins/animated-text/animated-text.js"></script>
+<script src="plugins/counto/apear.js"></script>
+<script src="plugins/counto/counTo.js"></script>
+
+ <!-- Google Map -->
+<script src="plugins/google-map/map.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script> 
+<!-- Main Script -->
+<script src="js/script.js"></script>
+<script src="js/seacrh script.js"></script>
+
+<script>
+            var form = document.getElementById('sheetdb-form');
+        form.addEventListener("submit", e => {
+          e.preventDefault();
+          fetch(form.action, {
+              method : "POST",
+              body: new FormData(document.getElementById("sheetdb-form")),
+          }).then(
+              response => response.json()
+          ).then((html) => {
+            // you can put any JS code here
+            window.open('order.html', '_blank');
+
+          });
+        });
+ </script>
+ 
+<script>
+autocomplete(document.getElementById("search"), countries);
+</script>
+
+<script>
+        function GFG() {
+ 
+            // Return Inpiut Radio disabled Property
+            var x =
+                document.getElementById(
+                  "radioID").disabled;
+           
+            document.getElementById(
+              "GFG").innerHTML = x;
+        }
+</script>
+
+<script>
+function terms_changed(termsCheckBox){
+    if(termsCheckBox.checked){
+        document.getElementById("submit_button").disabled = false;
+    } else{
+        document.getElementById("submit_button").disabled = true;
+    }
+
+}
+function terms_changed_2(termsCheckBox){
+    if(termsCheckBox.checked){
+        document.getElementById("submit_button_2").disabled = false;
+    } else{
+        document.getElementById("submit_button_2").disabled = true;
+    }
+    
+}
+function terms_changed_3(termsCheckBox){
+    if(termsCheckBox.checked){
+        document.getElementById("submit_button_3").disabled = false;
+    } else{
+        document.getElementById("submit_button_3").disabled = true;
+    }
+    
+}
+function terms_changed_4(termsCheckBox){
+    if(termsCheckBox.checked){
+        document.getElementById("submit_text").disabled = false;
+    } else{
+        document.getElementById("submit_text").disabled = true;
+    }
+}
+
+
+</script>
+</script>
+
+<script src="js/select.js"></script>
+<script src="js/hiddenbox.js"></script>
+<script src="js/sum.js"></script>
+</html>
+
