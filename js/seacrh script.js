@@ -28,6 +28,8 @@ var countries = [
 "BLUR BACKGROUND",
 "AVATAR 2D",
 "MOCKUP",
+"CV",
+"CURRICULUM VITAE",
 ];
 
 function autocomplete(inp, arr) {
