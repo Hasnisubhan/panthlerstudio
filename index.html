@@ -42,39 +42,12 @@
   		background-attachment: fixed;
   		background-size: cover;
 	}
-	.loadex {
-	    position: fixed;
-	    z-index: 99;
-	    top: 0;
-	    left: 0;
-	    width: 100%;
-	    height: 100%;
-	    background: white;
-	    display: flex;
-	    justify-content: center;
-	    align-items: center;
-	}
-
-	.loadex > img {
-	    width: 200px;
-	}
-
-	.loadex.hidden {
-	    animation: fadeOut 1s;
-	    animation-fill-mode: forwards;
-	}
-
-	@keyframes fadeOut {
-	    100% {
-	        opacity: 0;
-	        visibility: hidden;
-	    }
-	}
+	
+	
+	
 </style>
 <body>
-<div class="loadex">
-    <img src="loadex.gif"  alt="Loading..." />
-</div>
+
 <!-- Navigation Start -->
 <!-- Header Start --> 
 <nav class="navbar navbar-expand-lg  main-nav " id="navbar">
@@ -601,12 +574,6 @@ autocomplete(document.getElementById("search"), countries);
 
         }
 </script>
-<script>
-window.addEventListener("load", function () {
-    const loader = document.querySelector(".loadex");
-    loader.className += " hidden"; // class "loader hidden"
-});
 
 
-</script>
 </html>
